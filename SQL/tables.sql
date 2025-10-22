@@ -43,3 +43,9 @@ CREATE TABLE Payments (
     PaymentDate DATE,
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
+
+SELECT * FROM Customers;
+SELECT * FROM Products;
+SELECT * FROM Orders;
+SELECT * FROM OrderDetails;
+SELECT * FROM Payments;
