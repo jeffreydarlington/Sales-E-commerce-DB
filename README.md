@@ -22,13 +22,3 @@ The project was created as a practice for **junior data analyst skills**, includ
 - One product → Many order details
 - One order → Many payments
 
----
-
-## Table Structures
-
-### Customers
-```sql
-CustomerID INT PRIMARY KEY
-Name VARCHAR(100)
-Email VARCHAR(100)
-Country VARCHAR(50)
